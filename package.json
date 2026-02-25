@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_basesdatos1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.18.1",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.7"
+  }
+}
